@@ -24,6 +24,7 @@ while i:
         x,y=(0.5*(x+a3),0.5*(y+b3))
     abscisse.insert(0,x)
     ordonne.insert(0,y)
+    i-=1
 ax = plt.gca()
 ax.set_xticks([])
 ax.set_yticks([])
